@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "VideoChat",
+  "version": "1.0.0",
+  "description": "Chat with the content of a YouTube video using RAG.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "VideoChat"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://youtu.be/*"
+  ]
+}
